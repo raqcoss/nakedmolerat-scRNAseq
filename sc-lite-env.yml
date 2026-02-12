@@ -1,0 +1,21 @@
+name: sc-lite-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.12
+  - scanpy
+  - jupyterlab
+  - notebook
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - h5py
+  - pip
+  - pip:
+      - anndata
+      - statsmodels
+# Run on terminal `conda env create -f ./scanpy/sc-lite-env.yml`

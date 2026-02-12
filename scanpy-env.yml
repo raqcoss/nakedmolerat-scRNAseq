@@ -1,0 +1,30 @@
+name: scanpy-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.12
+  - scanpy
+  - jupyterlab
+  - notebook
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - h5py
+  - pip
+  - scvi-tools
+  - ipykernel
+  - pip:
+      - anndata
+      - statsmodels
+      - celltypist
+      - gseapy
+      - igraph
+      - leidenalg
+      - openpyxl
+# Run on terminal `conda env create -f ./scanpy/scanpy-env.yml`
+#  python -m ipykernel install --user --name=scanpy-env --display-name="Python (scanpy-env)"
