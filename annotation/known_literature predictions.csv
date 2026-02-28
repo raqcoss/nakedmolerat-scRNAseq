@@ -1,0 +1,26 @@
+cluster,predicted_celltype
+0,Interneurons
+1,Unknown
+2,Mature Neurons
+3,Spaltter Neurons
+4,Astrocytes
+5,Schwann Cell
+6,Interneurons
+7,Mature Neurons
+8,Interneurons
+9,Mature Neurons
+10,Mature Neurons | Glutamatergic Neurons | Spaltter Neurons
+11,Unknown
+12,Interneurons
+13,Neuroepithelial Cells | Mature Neurons | Glutamatergic Neurons
+14,Oligodendrocyte precursor
+15,Neuroepithelial Cells | Radial Glia | Spaltter Neurons
+16,Astrocytes
+17,Neuroepithelial Cells | Schwann Cell
+18,Interneurons
+19,Spaltter Neurons | Others
+20,Interneurons
+21,Others
+22,Mature Neurons | Spaltter Neurons
+23,Microglia
+24,Interneurons
